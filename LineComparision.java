@@ -48,17 +48,21 @@ public class LineComparision {
 
 		if ( distance1 == distance2 ) {
 
-		 System.out.println("These two lengths are preferable");
+              		 System.out.println("The lengths of two straight lines are same");
 
 		}
 
-		else {
+		else if (distance1 > distance2 ) {
 
-		System.out.println("These two lengths are not preferable");
+	           	System.out.println(" 1st straight line length is greater than 2nd straight line length ");
 
 		}
 
+		 else  {
 
+                        System.out.println(" 1st straight line length is less than 2nd straight line length ");
+
+                }
 
 
 
